@@ -85,8 +85,8 @@
 	}
 	
 	function updateScores() {
-		playerScoreBox.innerHTML = computerScore;
-		computerScoreBox.innerHTML = playerScore;
+		playerScoreBox.innerHTML = playerScore;
+		computerScoreBox.innerHTML = computerScore;
 	}
 	
 	//console.log('computer choose ' + computerChoice);
